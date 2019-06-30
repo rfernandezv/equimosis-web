@@ -16,6 +16,7 @@ import { PopupDialogComponent }  from './popup.dialog.component';
 import { AppComponent }  from './app.component';
 import { AppRoutingModule }        from './app.routing';
 import { HeaderComponent } from '../app/components/header/header.component';
+import { SubmenuComponent } from '../app/components/submenu/submenu.component';
 
 import { AddDialogCustomerComponent} from './modules/customer/add/add.dialog.component';
 import { EditDialogCustomerComponent} from './modules/customer/edit/edit.dialog.component';
@@ -91,6 +92,7 @@ import { BruisedatingresultComponent } from './bruisedatingresult/bruisedatingre
         LoginComponent,
         RegisterComponent,
         HeaderComponent,
+        SubmenuComponent,
         PopupDialogComponent,
         AddDialogCustomerComponent,
         EditDialogCustomerComponent,

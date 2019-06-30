@@ -1,6 +1,7 @@
 ﻿import { Routes, RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 
+import { SubmenuComponent } from './components/submenu/submenu.component';
 import { HomeComponent } from './home';
 import { LoginComponent } from './login';
 import { RegisterComponent } from './register';
@@ -23,7 +24,7 @@ const appRoutes: Routes = [
     { path: 'dashboard', component: HomeComponent, canActivate: [AuthGuard] },
     { path: 'login', component: LoginComponent },
     { path: 'register', component: RegisterComponent },
-    { path: 'registerbruise', component: RegisterbruiseComponent },
+    { path: 'registerbruise', component: RegisterbruiseComponent},
     { path: 'bruisedatingresult', component: BruisedatingresultComponent},
     { path: '**', redirectTo: '' }
 ];
