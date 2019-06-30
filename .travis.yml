@@ -4,8 +4,6 @@ node_js:
 before_script:
 - npm install -g --silent @angular/cli
 script:
-  - chmod +x build.sh
-  - ./build.sh
   - chmod +x dist
   - chmod +x dist/equimosis-web
 # blocklist
