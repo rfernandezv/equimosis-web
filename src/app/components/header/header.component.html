@@ -1,0 +1,20 @@
+<mat-toolbar color="primary" >
+  <span>
+    <img src="assets/img/logo_unmsm.png" class="angular-logo">
+    Equimosis v0.1
+  </span>
+  <span class="fill-remaining-space"></span>
+  <button mat-button routerLink="dashboard" > <mat-icon>home</mat-icon> </button>
+
+  <button mat-button routerLink="registerbruise" >Registrar caso</button>
+  <button mat-button routerLink="bruisedatingresult">Clasificación</button>
+  <button mat-button routerLink="sale">Reportes</button>
+  <button mat-button (click)="onLogout()" >Salir</button>
+</mat-toolbar>
+<div class="signin-content" >
+    <mat-card>
+        <mat-card-content>
+              Bienvenido(a), {{getNombres()}}
+      </mat-card-content>
+  </mat-card>
+</div>
