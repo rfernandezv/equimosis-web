@@ -28,7 +28,8 @@ deploy:
   - provider: cloudfoundry
     skip_cleanup: true
     username: richar.fernandez@unmsm.edu.pe
-    password: ric.fevil.Pivotal.123
+    password: 
+      secure: "dpDYlw0aVZQFJq4THeqHTpMqMZPXyY6o8HSTJvYVjdOFd1SFEKeKfm7ueav93U/7IWlbRTJsSWnyaA5a/qAZTOVq2ShuiBRtcFM0pxGBxuuaXwPdd+Q2H2D7WXfabMsb4d9bszBmlaqalPUmndOD71/oKTpFsSz24R5g2yUIUFvnWzRK8vV9RnVp3TP4ZycxvacdtwuvZTKP9mfluOVNSawpEibzAahz9Mi156W/2EQJRHp1MaS1EhBJmiGD7Iya76p8te4FKuNq527f/ToHewFmhHTF1k5KDR8Qj5XimnhztiSoCEmfEXEG4TkkWsRgvMkcOVjg91LNrOWWJY2MgvbKLtoLooNetyZ0FV92AxAl/NB5F27CeK9mEuK0tUxpl4jdfZvB1EZ2J1lHK79JelyZdDpOLQnQ30DgNSPjmUvK+UIY8Rtsveg0B6fYwzrE5DUZEI85J1ezBzrPH9B25AEk/8OC6F2ZCh5ES6vtF+HDY8l0tr/6zoBsPuIgeGGw001602Lyf2OLrPWO6XRqxBI09JXp0+0hgZ1XftkeN8eqssw+8f/NgZUBRi5bo47Vb9wx/MhGS07JaJc+c1ANkqkn5FW071DhDHCOk8kPozCpXvQ3qMNuIpCqhznWw6Ll6uegXgzsWv4dGysNYzf5RWQE6Ni7CSOBk1pYxbDMxE8="
     api: https://api.run.pivotal.io
     organization: rfernandezvilchez
     space: development
